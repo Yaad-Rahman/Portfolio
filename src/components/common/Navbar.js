@@ -3,6 +3,14 @@ import {Link} from 'react-router-dom';
 
 
 class Navbar extends React.Component {
+
+	refresh() {
+		setInterval(() => {
+			window.location.reload(false);
+		}, 1000);
+		
+	}
+
     render() {
         return (
             <div className="nav-container">
@@ -22,13 +30,13 @@ class Navbar extends React.Component {
 
 								</a>
 								<li>
-									<Link to="/" >Home</Link>
+									<Link to="/" onClick={this.refresh} >Home</Link>
 								</li>
 								<li>
-									<Link to="/about" >About Me</Link>
+									<Link to="/about" onClick={this.refresh}>About Me</Link>
 								</li>
 								<li>
-									<Link to="/contact">Contact</Link>
+									<Link to="/contact" onClick={this.refresh}>Contact</Link>
 								</li>
 
 								

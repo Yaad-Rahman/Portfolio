@@ -1,6 +1,6 @@
 import React from 'react';
 import IndexPage from './components/indexpage';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
 import About from './components/About';
 import Contanct from './components/contact';
 
@@ -10,6 +10,7 @@ function App() {
     <div>
 
       <Router>
+        <Switch>
 
           <Route 
             path="/"
@@ -28,6 +29,8 @@ function App() {
             exact={true}
             component={Contanct}
           />
+
+        </Switch>
 
       </Router>
 
