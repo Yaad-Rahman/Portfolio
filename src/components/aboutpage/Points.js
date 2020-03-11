@@ -31,7 +31,7 @@ class Points extends React.Component {
 						<div className="col-sm-6">
 							<div className="feature feature-icon-large">
 								<div className="pull-left">
-									<i className="icon icon-phone"></i>
+									<i className="icon icon-documents"></i>
 								</div>
 								<div className="pull-right">
 									<h5>{p.point_2}</h5>

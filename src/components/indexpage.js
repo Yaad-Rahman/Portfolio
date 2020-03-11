@@ -29,7 +29,7 @@ class IndexPage extends React.Component {
                 <Navbar />
                 <div className="main-container">
                     <Header 
-						heading={"Hello there"}
+						heading="Hello there! I am Rafiur Rahman"
 						skill1="Web Design"
 						skill2="Web Development"
 						skill3="Market Analysis"

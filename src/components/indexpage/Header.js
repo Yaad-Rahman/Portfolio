@@ -5,7 +5,7 @@ class Header extends React.Component {
         return (
             <header className="header-icons overlay">
                         <div className="background-image-holder parallax-background">
-                            <img className="background-image" alt="Background Image" src="img/header_image.jpg" />
+                            <img className="background-image" alt="Background Image" src="/proPic.JPG" />
                         </div>
                         
                         <div className="container">
