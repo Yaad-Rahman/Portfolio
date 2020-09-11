@@ -55,7 +55,7 @@ export default function SimpleModal(props) {
       >
         <div style={modalStyle} className={classes.paper}>
           <h2 id="simple-modal-title">{props.modal_title}</h2>
-          <iframe src="/Rafiur_Rahman_Resume.pdf" alt="resume" width="100%" height="650px"  />
+          <iframe src="/rafiur_rahman.pdf" alt="resume" width="100%" height="650px"  />
           <button className="btn btn-primary" type="button" onClick={handleClose}>
             Ok 
           </button>

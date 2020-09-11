@@ -11,12 +11,11 @@ class Footer extends React.Component {
 							<span className="text-white">© 2020 Yaad Rahman - All Rights Reserved.</span>
 							<br />
 							<br />
-							<i className="icon text-white icon_mail"></i>
-							<a href="contact.html" className="text-white"><span className="text-white"> Get in touch with me <i className="icon arrow_right"></i></span></a>
+
 						</div>
 					</div>
 				</div>
-				
+
 			</footer>
 		</div>
         )

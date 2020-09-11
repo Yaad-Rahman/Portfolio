@@ -19,41 +19,43 @@ class About extends React.Component {
 
     render() {
         return (
-            this.state.isLoading ? 
+            this.state.isLoading ?
             <Loader />
             :
             <div>
-                
+
                 <Navbar />
                 <div className="main-container">
                     <AboutHeading
                         topic="A Little Information About Me"
-                        details="Some informations that you need to know about me" 
+                        details="Some informations that you need to know about me"
                     />
-                    <Reason 
+                    <Reason
                         heading="Why Should You Hire Me ?"
                         reason="Because I am fast learner and passionate programmer"
                         details="I am very interested to learn new things and technologies, continously I am developing myself"
                         image="/pc.jpg"
                     />
 
-                    <Points 
+                    <Points
                         heading="A Little Things You May Need To Know"
-                        point_1="gaab"
-                        point_1_details="Ami onk beshi gaab"
+                        point_1="Diligent "
+                        point_1_details="I am very careful and focused on my duties"
                         point_2="Fast Learner"
                         point_2_details="Love to learn new things using my basic knowledge as fast as I can"
                         point_3="Creative Thinker"
                         point_3_details="Market Analysis about new solutions in an optimize way using brain storming"
+                        point_4="Potential & Well Wisher"
+                        point_4_details="I do believe that my development depends on the development of the organization. So I will try my best to meet the goals of organization"
                     />
                     <AboutHeading
                         topic="Check out my resume"
-                        details="information about"  
+                        details="information about"
                         modal={true}
                         modalTxt="My Resume"
                         modal_title="Rafiur_Rahman_Resume"
                     />
-                    
+
                     <Footer/>
                 </div>
             </div>
